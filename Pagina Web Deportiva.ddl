@@ -20,7 +20,7 @@ ALTER TABLE entrenamiento ADD CONSTRAINT entrenamiento_pk PRIMARY KEY ( numero )
 CREATE TABLE evento (
     codigo_evento                  INTEGER NOT NULL,
     fecha_programada               DATE NOT NULL,
-    duracion                       DATE NOT NULL,
+    duracion                       NUMBER NOT NULL CHECK (duracion between 1 and 10),
     estado                         VARCHAR2(40) NOT NULL,
     lugar_codigo                   INTEGER NOT NULL,
     usuario_identificacion         INTEGER NOT NULL,
