@@ -1,0 +1,35 @@
+INSERT INTO premio VALUES (1001, 'Se le otorga al mejor jugador de tenis', 1010, 'mejor jugador de la semana');
+INSERT INTO premio VALUES (1002, 'Se le otorga al segundo mejor jugador de tenis', 1011, 'segundo mejor jugador de la semana');
+INSERT INTO premio VALUES (1003, 'Se le otorga al tercer mejor jugador de tenis', 1012, 'tercer mejor jugador de la semana');
+INSERT INTO premio VALUES (1004, 'Se le otorga al campeon de la liga semestral', 1013, 'medalla de oro');
+INSERT INTO premio VALUES (1005, 'Se le otorga al segundo puesto de la siga semstral', 1014, 'medalla de plata');
+INSERT INTO premio VALUES (1006, 'Se le otorga al tercer puesto de la liga semestral', 1010, 'mejor jugador de la semana');
+INSERT INTO premio VALUES (1007, 'Se otorga a los participantes con mejor actitud deportiva', 1011, 'merito al juego limpio');
+
+
+
+INSERT INTO rutina VALUES (101, 'espalda, triceps y muslos', 1018, 'al hacer espalda cuidar el movimiento del hombro para no lesinarse', 'mucha agua, frutas ricas en carboidratos y buena proteina como la carne', 500, 73);
+INSERT INTO rutina VALUES (102, 'pecho, biceps, abdomen', 1017, 'precaucion en la flexion de los codos', 'agua, proteina, carboidratos', 400, 70);
+INSERT INTO rutina VALUES (103, 'respiracion', 1012, 'no ahogarse', 'agua, carboidrato', 300, 75);
+INSERT INTO rutina VALUES (104, 'practicar salidas', 1019, 'precausion con los saltos', 'idratacion, proteina', 350, 78);
+INSERT INTO rutina VALUES (105, 'todos los musculos inferiores y abdomen', 1015, 'cuidado con las rodillas', 'proteina, hidratacion', 700, 79);
+INSERT INTO rutina VALUES (106, 'abdomen, pierna, gluteo', 1013, 'rodillas', 'hidratacion, carboidraros', 700, 68);
+INSERT INTO rutina VALUES (107, 'cardio(correr 10 km)', 1014, 'cuidado con la respiracion', 'mucha agua', 1000, 70);
+INSERT INTO rutina VALUES (108, 'levantamiento de peso pesado', 1014, 'cuidado con las articulaciones', 'buena agua ', 800, 70);
+INSERT INTO rutina VALUES (109, 'juego con el balon', 1012, 'cuidados', 'alimentacion', 400, 80);
+
+INSERT INTO meta VALUES (10001, 'ser el mejor en lo que se hace', 1012);
+INSERT INTO meta VALUES (10002, 'ser el mejor en lo que se hace', 1015);
+INSERT INTO meta VALUES (10003, 'ser el mejor en lo que se hace', 1019);
+INSERT INTO meta VALUES (10004, 'ser el mejor en lo que se hace', 1011);
+INSERT INTO meta VALUES (10005, 'ser el mejor en lo que se hace', 1010);
+INSERT INTO meta VALUES (10006, 'ser el mejor en lo que se hace', 1017);
+INSERT INTO meta VALUES (10007, 'ser el mejor en lo que se hace', 1014);
+INSERT INTO meta VALUES (10008, 'ser el mejor en lo que se hace', 1018);
+INSERT INTO meta VALUES (10009, 'ser el mejor en lo que se hace', 1016);
+
+INSERT INTO administrador VALUES (10, 'luisa maria jaramillo gonzales', 'lmjg@gmail.com', 'lmjg');
+INSERT INTO administrador VALUES (11, 'raul rodriguez restrepo', 'rrr@gmail.com', 'rrr');
+INSERT INTO administrador VALUES (12, 'maria alejandro tobon jimenez', 'matj@gmail.com', 'matj');
+INSERT INTO administrador VALUES (13, 'pedro pablo leon jaramillo', 'pplj@gmail.com', 'pplj');
+INSERT INTO administrador VALUES (14, 'pikachu', 'p@gmail.com', 'p');
