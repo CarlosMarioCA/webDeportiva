@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="373D2B6A-3982-6DDA-588E-D4ACD478E6E9" name="META">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 14:06:31 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="EE134359-BC33-FE4F-36D7-4C781F186176">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 14:44:50 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="AFA1F779-8EEC-3658-093C-D36D972EDB4E">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 14:06:39 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacion" id="BC785E8E-6F9A-BC32-2702-A45CD97630CE">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 14:25:44 UTC</createdTime>
+<generatorID>EA866484-F89F-ABC3-37E6-ECC75A9D57F9</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<referedAttribute>00D3DEDC-E267-DFB8-AAAA-91F85DF86638</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CEE1F1F-B032-DE94-EDB3-BA41B043A0EE" name="META PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 14:45:02 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE134359-BC33-FE4F-36D7-4C781F186176</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

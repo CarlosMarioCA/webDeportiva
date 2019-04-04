@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Evento_resultado" directorySegmentName="seg_0" id="3238833C-77CE-E334-B8C8-7D9E23401C02">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 00:52:28 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<sourcePk>78C2E4C2-D471-03FA-8709-C450A673DE0C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DFA26C84-1F8F-BA09-434F-C1012192B208</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3A08D0F4-1E1C-DFAA-975F-EFC5FA59977A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

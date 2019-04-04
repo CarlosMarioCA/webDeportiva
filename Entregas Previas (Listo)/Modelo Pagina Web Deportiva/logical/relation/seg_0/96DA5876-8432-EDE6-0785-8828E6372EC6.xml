@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Deportista_Rutina" directorySegmentName="seg_0" id="96DA5876-8432-EDE6-0785-8828E6372EC6">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-24 21:38:56 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<sourcePk>361FE9E0-ED17-31B5-66D8-95470425B2B2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Creador de</nameOnSource>
+<nameOnTarget>Hecho por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B6E23A6-B540-46CF-600B-1E3FC9115571</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>22C977BD-E178-053F-42F1-2E67D4BAC514</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

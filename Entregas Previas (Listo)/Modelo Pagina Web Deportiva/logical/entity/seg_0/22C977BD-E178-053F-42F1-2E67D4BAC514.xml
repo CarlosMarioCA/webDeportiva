@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22C977BD-E178-053F-42F1-2E67D4BAC514" name="ENTRENAMIENTO">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-24 21:35:37 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero" id="36E66F66-E45E-1DB8-F0EF-29F873D2CFDE">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 14:23:46 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacion" id="D3E9B37B-E4EF-06C2-D439-82B09E01931D">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-24 21:40:57 UTC</createdTime>
+<generatorID>96DA5876-8432-EDE6-0785-8828E6372EC6</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<referedAttribute>00D3DEDC-E267-DFB8-AAAA-91F85DF86638</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="76C57227-E95A-F0B9-411B-558BC4D09FF8">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-08 23:46:28 UTC</createdTime>
+<generatorID>C0BEAE48-20FA-4755-16ED-695236B0FA6F</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<referedAttribute>6B1E4FCA-AA45-5145-4C56-327BD870401C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="68C76ED7-A0BD-DA4F-9750-8AB1994AD61E">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-24 21:37:05 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="9B9DDB2F-4E69-D511-F2EC-0E1F84F1ABBB">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 01:00:53 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4F78AAC-EFD7-9CBD-E2D9-D357C7726AAD" name="ENTRENAMIENTO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 14:23:50 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36E66F66-E45E-1DB8-F0EF-29F873D2CFDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

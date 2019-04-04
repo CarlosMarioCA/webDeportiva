@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A08D0F4-1E1C-DFAA-975F-EFC5FA59977A" name="PREMIO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 00:52:07 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_evento" id="AB5BF1C9-DCAF-B4A6-2D73-59B167702FD2">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 00:52:28 UTC</createdTime>
+<generatorID>3238833C-77CE-E334-B8C8-7D9E23401C02</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<referedAttribute>0095CDF0-EBEB-95A9-BF38-D325CC6AF7E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="B6003506-F9CA-B892-E503-4EB024BAA794">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 00:58:51 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacion" id="BA41C614-4EA2-38EF-5A2E-84497F8231FA">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 14:05:52 UTC</createdTime>
+<generatorID>3BD008BC-6934-4DFB-681F-0ABF84DB465D</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<referedAttribute>00D3DEDC-E267-DFB8-AAAA-91F85DF86638</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo_obtenido" id="8927A11D-31E7-C0BA-C0B9-B34E6A982C63">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 14:20:01 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A9BE198-2BB7-658D-7BAE-01F37FCF6601" name="PREMIO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 14:10:34 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB5BF1C9-DCAF-B4A6-2D73-59B167702FD2</attributeRef>
+<attributeRef>BA41C614-4EA2-38EF-5A2E-84497F8231FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Deportista_rutinav2" directorySegmentName="seg_0" id="33A1634D-3E8E-4042-A399-FC30687B6E6D">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-02-09 00:00:44 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="CB13F4C2-D9B5-D2A7-CDFF-4F0F5396813E" value="true"/>
+</engineerTo>
+<sourcePk>361FE9E0-ED17-31B5-66D8-95470425B2B2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4B6E23A6-B540-46CF-600B-1E3FC9115571</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78167021-4F4B-5D8A-F0AC-73A3354E1A80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B6E23A6-B540-46CF-600B-1E3FC9115571" name="USUARIO">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-23 21:08:06 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificacion" id="00D3DEDC-E267-DFB8-AAAA-91F85DF86638">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-23 21:14:15 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B29A5D69-5CC6-12FE-5DD1-C49282F9D974">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-23 21:10:13 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="112B6FF4-6363-6AE0-4719-0BC569482002">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-23 21:11:02 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contrasena" id="7679033D-84B7-0F04-79E7-D77C4A86E1F2">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-23 21:11:16 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>350</dataTypeSize>
+<ownDataTypeParameters>350,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="283C3023-9548-1278-4129-4A8220C9DA0F">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-04-03 16:16:01 UTC</createdTime>
+<ownerDesignName>Modelo Pagina Web Deportiva</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="8D3BE299-6BE2-3637-7F7A-2EF4E3CC4C25">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-23 21:12:56 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deporte" id="A6577443-27AF-1261-54A3-9D68BC7F6096">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-04-03 16:10:25 UTC</createdTime>
+<ownerDesignName>Modelo Pagina Web Deportiva</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gastos" id="FE5B7C22-F04D-38DD-7F2E-359EA52459F6">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-04-03 16:10:49 UTC</createdTime>
+<ownerDesignName>Modelo Pagina Web Deportiva</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="equipo" id="AC0C8B48-1384-A129-5F12-D104337592C3">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-04-03 16:11:56 UTC</createdTime>
+<ownerDesignName>Modelo Pagina Web Deportiva</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ingresos" id="7DD8367A-EDD2-E73C-4769-3F2CAE4C65D6">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-04-03 16:12:28 UTC</createdTime>
+<ownerDesignName>Modelo Pagina Web Deportiva</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="361FE9E0-ED17-31B5-66D8-95470425B2B2" name="DEPORTISTA PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2018-09-23 21:10:24 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D9F32023-636F-9D4A-706E-0D4B33A5EBC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00D3DEDC-E267-DFB8-AAAA-91F85DF86638</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
