@@ -1,0 +1,19 @@
+INSERT INTO usuario values (1010, 'Carlos', 'camchavezag2@hotmail.com', 666, 'aficionado', 'Bogotá', 'Tennis');
+
+INSERT INTO usuario values (1011, 'Rafael', 'Rafael1280@gmail.com', 789, 'profesional', 'Medellin', 'Futbol');
+
+INSERT INTO usuario values (1012, 'Lucia', 'Lucia1011@outlook.com', 214, 'aficionado', 'Bogotá', 'Natacion');
+
+INSERT INTO usuario values (1013, 'Fernando', 'Fer1013@yahoo.com', 365, 'aficionado', 'Cali', 'Futbol');
+
+INSERT INTO usuario values (1014, 'Camila', 'Cam14@unal.edu.co', 111, 'aficionado', 'Bucaramanga', 'Voleibol');
+
+INSERT INTO usuario values (1015, 'Sergio', 'sergiofr@gmail.com', 201, 'profesional', 'Barranquilla', 'BasketBall');
+
+INSERT INTO usuario values (1016, 'Juan', 'Juani@hotmail.com', 675, 'aficionado', 'Cucuta', 'Futbol');
+
+INSERT INTO usuario values (1017, 'Alejandra', 'almejandra@gmail.com', 721, 'profesional', 'Medellin', 'Lucha');
+
+INSERT INTO usuario values (1018, 'Tatiana', 'tatis@hotmail.com', 934, 'aficionado', 'Bogotá', 'Rugby');
+
+INSERT INTO usuario values (1019, 'Felipe', 'oruro@unal.edu.com', 656, 'aficionado', 'Bogotá', 'Voleibol');

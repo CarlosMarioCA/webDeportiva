@@ -1,0 +1,10 @@
+
+INSERT INTO evento values (1110, to_date('14-jul-2019','dd-mon-yyyy'), 2, 'por validar', 10011, 1012, 11);
+
+INSERT INTO evento values (1111, to_date('10-apr-2019','dd-mon-yyyy'), 2, 'validado', 10018, 1015, 14);
+
+INSERT INTO evento values (1112, to_date('15-jun-2019','dd-mon-yyyy'), 1, 'por validar', 10015, 1017, 13);
+
+INSERT INTO evento values (1113, to_date('01-aug-2019','dd-mon-yyyy'), 4, 'por validar', 10013, 1018, 11);
+
+INSERT INTO evento values (1114, to_date('03-may-2019','dd-mon-yyyy'), 2, 'validado', 10012, 1010, 12);
