@@ -24,7 +24,7 @@ CREATE TABLE evento (
     estado                         VARCHAR2(40) NOT NULL,
     lugar_codigo                   NUMBER NOT NULL,
     usuario_identificacion         NUMBER NOT NULL,
-    administrador_identificacion   NUMBER NOT NULL
+    administrador_identificacion   NUMBER
 );
 
 ALTER TABLE evento ADD CONSTRAINT evento_pk PRIMARY KEY ( codigo_evento );
