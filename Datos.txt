@@ -1,18 +1,17 @@
-
 ---INSERCIÓN DE DATOS MODELO PÁGINA WEB DEPORTIVA:
 
 --DATOS USUARIO:
 
-INSERT INTO usuario values (1010, 'Carlos', 'camchavezag2@hotmail.com', 666, 'aficionado', 'Bogotá', 'Tennis');
-INSERT INTO usuario values (1011, 'Rafael', 'Rafael1280@gmail.com', 789, 'profesional', 'Medellin', 'Futbol');
-INSERT INTO usuario values (1012, 'Lucia', 'Lucia1011@outlook.com', 214, 'aficionado', 'Bogotá', 'Natacion');
-INSERT INTO usuario values (1013, 'Fernando', 'Fer1013@yahoo.com', 365, 'aficionado', 'Cali', 'Futbol');
-INSERT INTO usuario values (1014, 'Camila', 'Cam14@unal.edu.co', 111, 'aficionado', 'Bucaramanga', 'Voleibol');
-INSERT INTO usuario values (1015, 'Sergio', 'sergiofr@gmail.com', 201, 'profesional', 'Barranquilla', 'BasketBall');
-INSERT INTO usuario values (1016, 'Juan', 'Juani@hotmail.com', 675, 'aficionado', 'Cucuta', 'Futbol');
-INSERT INTO usuario values (1017, 'Alejandra', 'almejandra@gmail.com', 721, 'profesional', 'Medellin', 'Lucha');
-INSERT INTO usuario values (1018, 'Tatiana', 'tatis@hotmail.com', 934, 'aficionado', 'Bogotá', 'Rugby');
-INSERT INTO usuario values (1019, 'Felipe', 'oruro@unal.edu.com', 656, 'aficionado', 'Bogotá', 'Voleibol');
+INSERT INTO usuario values (1010, 'Carlos', 'camchavezag2@hotmail.com', 666, 'aficionado', 'Bogotá', 'Tennis', 40000, null, null);
+INSERT INTO usuario values (1011, 'Rafael', 'Rafael1280@gmail.com', 789, 'profesional', 'Medellin', 'Futbol', 500000, 'Envigado FC', 2000000);
+INSERT INTO usuario values (1012, 'Lucia', 'Lucia1011@outlook.com', 214, 'aficionado', 'Bogotá', 'Natacion', 20000, null, null);
+INSERT INTO usuario values (1013, 'Fernando', 'Fer1013@yahoo.com', 365, 'aficionado', 'Cali', 'Futbol', 20000, null, null);
+INSERT INTO usuario values (1014, 'Camila', 'Cam14@unal.edu.co', 111, 'aficionado', 'Bucaramanga', 'Voleibol', null, null, null);
+INSERT INTO usuario values (1015, 'Sergio', 'sergiofr@gmail.com', 201, 'profesional', 'Barranquilla', 'BasketBall', 300000, 'Barranquilla BC', 1900000);
+INSERT INTO usuario values (1016, 'Juan', 'Juani@hotmail.com', 675, 'aficionado', 'Cucuta', 'Futbol', null, null, null);
+INSERT INTO usuario values (1017, 'Alejandra', 'almejandra@gmail.com', 721, 'profesional', 'Medellin', 'Lucha', 100000, 'Medellin Lucha', 1200000);
+INSERT INTO usuario values (1018, 'Tatiana', 'tatis@hotmail.com', 934, 'aficionado', 'Bogotá', 'Rugby', 50000, null, null);
+INSERT INTO usuario values (1019, 'Felipe', 'oruro@unal.edu.com', 656, 'aficionado', 'Bogotá', 'Voleibol', null, null, null);
 
 ---DATOS LUGAR:
 
@@ -23,19 +22,9 @@ INSERT INTO LUGAR values(10013,'Estadio Atanasio Girardot','Medellin','Estadio',
 INSERT INTO LUGAR values(10014,'Cancha Tennisaria','Cali','Calle 47','Práctica para tennis');
 INSERT INTO LUGAR values(10015,'Estadio Castilla','Medellin','','Para practicar natación.');
 INSERT INTO LUGAR values(10016,'Piscina la Ciénaga','Barranquilla','Calle 12','Para practicar natación.');
-INSERT INTO LUGAR values(10017,'Coliseo ','Barranquilla','Calle 12','Para practicar natación.');
+INSERT INTO LUGAR values(10017,'Coliseo','Barranquilla','Calle 12','Para practicar natación.');
 INSERT INTO LUGAR values(10018,'UVA La Gloria','Cucuta','Autopista Internacional','Centro Cultural y deportivo UVA La Gloria');
 INSERT INTO LUGAR values(10019,'Multiproposito La Grulla','Santa Marta','Calle 12','Sitio de uso de deportes masivo');
-
----DATOS PREMIO:
-
-INSERT INTO premio VALUES (1001, 'Se le otorga al mejor jugador de tenis', 1010, 'mejor jugador de la semana');
-INSERT INTO premio VALUES (1002, 'Se le otorga al segundo mejor jugador de tenis', 1011, 'segundo mejor jugador de la semana');
-INSERT INTO premio VALUES (1003, 'Se le otorga al tercer mejor jugador de tenis', 1012, 'tercer mejor jugador de la semana');
-INSERT INTO premio VALUES (1004, 'Se le otorga al campeon de la liga semestral', 1013, 'medalla de oro');
-INSERT INTO premio VALUES (1005, 'Se le otorga al segundo puesto de la siga semstral', 1014, 'medalla de plata');
-INSERT INTO premio VALUES (1006, 'Se le otorga al tercer puesto de la liga semestral', 1010, 'mejor jugador de la semana');
-INSERT INTO premio VALUES (1007, 'Se otorga a los participantes con mejor actitud deportiva', 1011, 'merito al juego limpio');
 
 ---DATOS RUTINA:
 
@@ -72,33 +61,36 @@ INSERT INTO administrador VALUES (14, 'pikachu', 'p@gmail.com', 'p');
 ---DATOS EVENTO:
 
 INSERT INTO evento values (1110, to_date('14-jul-2019','dd-mon-yyyy'), 2, 'por validar', 10011, 1012, 11);
-INSERT INTO evento values (1111, to_date('10-apr-2019','dd-mon-yyyy'), 2, 'validado', 10018, 1015, 14);
+INSERT INTO evento values (1111, to_date('10-may-2019','dd-mon-yyyy'), 2, 'validado', 10018, 1015, 14);
 INSERT INTO evento values (1112, to_date('15-jun-2019','dd-mon-yyyy'), 1, 'por validar', 10015, 1017, 13);
-INSERT INTO evento values (1113, to_date('01-aug-2019','dd-mon-yyyy'), 4, 'por validar', 10013, 1018, 11);
+INSERT INTO evento values (1113, to_date('20-jul-2019','dd-mon-yyyy'), 4, 'por validar', 10013, 1018, 11);
 INSERT INTO evento values (1114, to_date('03-may-2019','dd-mon-yyyy'), 2, 'validado', 10012, 1010, 12);
+
+---DATOS PREMIO:
+
+INSERT INTO premio VALUES (1111, 'Se le otorga al mejor jugador de tenis', 1010, 'mejor jugador de la semana');
+INSERT INTO premio VALUES (1111, 'Se le otorga al segundo mejor jugador de tenis', 1011, 'segundo mejor jugador de la semana');
+INSERT INTO premio VALUES (1111, 'Se le otorga al tercer mejor jugador de tenis', 1012, 'tercer mejor jugador de la semana');
+INSERT INTO premio VALUES (1113, 'Se le otorga al campeon de la liga semestral', 1013, 'medalla de oro');
+INSERT INTO premio VALUES (1113, 'Se le otorga al segundo puesto de la liga semstral', 1014, 'medalla de plata');
+INSERT INTO premio VALUES (1113, 'Se le otorga al tercer puesto de la liga semestral', 1015, 'mejor jugador de la semana');
+INSERT INTO premio VALUES (1110, 'Se otorga a los participantes con mejor actitud deportiva', 1011, 'merito al juego limpio');
 
 ---DATOS ENTRENAMIENTO:
 
-INSERT INTO entrenamiento values (5500,"Práctica de futbol nivel principiante", to_date('13-jun-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5501,"Práctica de futbol nivel intermedio", to_date('13-jun-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5502,"Práctica de futbol nivel avanzado", to_date('13-jun-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5503,"Aeróbicos", to_date('1-may-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5504,"Footing", to_date('5-aug-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5505,"Clase de aeróbicos", to_date('11-jan-2020','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5506,"Práctica de tenis nivel principiante", to_date('7-may-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5507,"Práctica de tenis nivel intermedio", to_date('7-may-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5508,"Práctica de tenis nivel avanzado", to_date('7-may-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5509,"Práctica de baloncesto nivel principiante", to_date('22-jul-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5510,"Práctica de baloncesto nivel intermedio", to_date('22-jul-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5511,"Práctica de baloncesto nivel avanzado", to_date('22-jul-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5512,"Práctica de natacion nivel principiante", to_date('17-jun-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5513,"Práctica de natacion nivel intermedio", to_date('17-jun-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5514,"Práctica de natacion nivel avanzado", to_date('17-jun-2019','dd-mon-yyyy'));
-INSERT INTO entrenamiento values (5515,"Calistenia", to_date('10-jun-2019','dd-mon-yyyy'));
-
-
-
-
-
-
-
+INSERT INTO entrenamiento values (5500, 1016, 10018, 'Práctica de futbol nivel principiante', to_date('13-jun-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5501, 1016, 10018, 'Práctica de futbol nivel intermedio', to_date('13-jun-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5502, 1013, 10014, 'Práctica de futbol nivel avanzado', to_date('13-jun-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5503, 1019, 10011, 'Aeróbicos', to_date('01-may-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5504, 1018, 10011, 'Footing', to_date('05-jul-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5505, 1017, 10013, 'Clase de aeróbicos', to_date('11-may-2020','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5506, 1010, 10011, 'Práctica de tenis nivel principiante', to_date('07-may-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5507, 1010, 10011, 'Práctica de tenis nivel intermedio', to_date('09-may-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5508, 1010, 10011, 'Práctica de tenis nivel avanzado', to_date('11-may-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5509, 1015, 10017, 'Práctica de baloncesto nivel principiante', to_date('22-jul-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5510, 1015, 10017, 'Práctica de baloncesto nivel intermedio', to_date('25-jul-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5511, 1015, 10017, 'Práctica de baloncesto nivel avanzado', to_date('27-jul-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5512, 1012, 10016, 'Práctica de natacion nivel principiante', to_date('17-jun-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5513, 1012, 10016, 'Práctica de natacion nivel intermedio', to_date('20-jun-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5514, 1012, 10016, 'Práctica de natacion nivel avanzado', to_date('22-jun-2019','dd-mon-yyyy'));
+INSERT INTO entrenamiento values (5515, 1017, 10013, 'Calistenia', to_date('10-jun-2019','dd-mon-yyyy'));
