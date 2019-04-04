@@ -119,3 +119,5 @@ ALTER TABLE premio
 ALTER TABLE rutina
     ADD CONSTRAINT rutina_usuario_fk FOREIGN KEY ( usuario_identificacion )
         REFERENCES usuario ( identificacion );
+
+
