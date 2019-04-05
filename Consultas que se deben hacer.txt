@@ -1,7 +1,1 @@
-Consultas: entregar en álgebra relacional (documento Word) y en SQL (Script 3)
-•	Dos (2) de proyección - Mario
-•	Cuatro (4) proyección y selección (where) - Juan
-•	Dos (2) con producto cartesiano – 1 Juan 1 Mauro
-•	Cuatro (4) proyección, selección y natural join - Mauro
-•	Dos (2) proyección, selección e inner join - Mario
-•	Dos (2) proyección, selección y outter (left, right) join – Puede llorar
+
